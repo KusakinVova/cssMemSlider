@@ -118,13 +118,18 @@ header{
 }
 
 .slider__img {
-  height: 40vw;
+  height: 30vh;
   object-fit: contain;
   display: block;
   width: 0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+@media screen and (min-width: 991px) {
+  .slider__img {
+    height: 50vh;
+  }
 }
 
 
