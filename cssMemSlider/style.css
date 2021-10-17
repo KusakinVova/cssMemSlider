@@ -90,8 +90,8 @@ header{
 
 @media screen and (min-width: 991px) {
   .slider__dot span{
-    width: 1vw;
-    height: 1vw;
+    width: 2vw;
+    height: 2vw;
   }
 }
 
@@ -111,10 +111,8 @@ header{
   display: flex;
   overflow: hidden;
   width: 100%;
-  background-color: #b1b1b1;
-  border-radius: 1em;
-  padding: 1em 0;
-  box-sizing: border-box;
+  background-color: rgb(177 177 177 / 19%);
+  margin-bottom: 1vh;
 }
 
 .slider__img {
